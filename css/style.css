@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Jomolhari&display=swap');
+
 * {
   padding: 0px;
   margin: 0px;
@@ -15,6 +17,12 @@ h1,h2,h3,h4,h5,h6 {
 
 body {
   background-color: #344761;
+  line-height: 30px;
+}
+
+main {
+  height: 500px;
+  text-align: center;
 }
 
 nav {
@@ -68,4 +76,13 @@ nav a:hover {
 .imgDiv {
   padding: 20px;
   text-align: center;
+}
+
+.description {
+  padding: 0px 35px;
+  padding-bottom: 20px;
+}
+
+.name {
+  padding-bottom: 20px;
 }
