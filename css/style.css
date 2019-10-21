@@ -1,0 +1,71 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Big Shoulders Text', cursive;
+  letter-spacing: 2px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Jomolhari', serif;
+  letter-spacing: normal;
+}
+
+body {
+  background-color: #344761;
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.otherNav {
+  position: static;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  justify-content: flex-end;
+}
+
+nav li {
+  padding: 20px 0px;
+}
+
+#bgHero {
+  width: 100%;
+}
+
+#hero {
+  width: 100%;
+  background-size: cover;
+}
+
+nav a {
+  padding: 20px;
+  transition-duration: 0.4s;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: black;
+}
+
+#aboutImg {
+  border: #6e4b4b;
+  border-width: 10px;
+  border-style: solid;
+  width: 500px;
+}
+
+.imgDiv {
+  padding: 20px;
+  text-align: center;
+}
